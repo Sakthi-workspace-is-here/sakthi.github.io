@@ -1,0 +1,237 @@
+/* Place your CSS styles in this file */
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.mainbody{
+    width: 99%;
+    margin: auto;
+}
+.profile {
+    width: 600px;
+    display: flex;
+    align-items: stretch;
+}
+
+.profile-image {
+    float: left;
+    margin-right: 20px;
+    width: 300px;
+    height: 210px;
+    }
+
+.profile-text p {
+    margin: 0;
+    line-height: 1.2;
+}
+
+/* p {
+    text-align:left;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+    float: right;
+} */
+
+.nav-container {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}    
+
+.nav-container li {
+    margin: 5px;
+}
+
+.nav-link-1:hover {
+    color: red
+}
+
+.nav-link-2:hover {
+    color: red
+}
+.nav-link-3:hover {
+    color: red
+}
+.nav-link-4:hover {
+    color: red
+}
+.nav-link-5:hover {
+    color: red
+}
+
+a.nav-link-1 {
+background-color: green;
+    color: yellow;           
+    font-weight: bold;       
+    padding: 10px 20px;      
+    text-align: center;            
+    display: inline-block;   
+    border: 2px solid darkgreen; 
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+a.nav-link-2 {
+background-color: green;
+    color: yellow;           
+    font-weight: bold;       
+    padding: 10px 20px;      
+    text-align: center;      
+    display: inline-block;   
+    border: 2px solid darkgreen; 
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+a.nav-link-3 {
+background-color: green;
+    color: yellow;           
+    font-weight: bold;       
+    padding: 10px 20px;      
+    text-align: center;      
+    display: inline-block;   
+    border: 2px solid darkgreen; 
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+a.nav-link-4 {
+background-color: green;
+    color: yellow;           
+    font-weight: bold;       
+    padding: 10px 20px;      
+    text-align: center;      
+    display: inline-block;   
+    border: 2px solid darkgreen; 
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+a.nav-link-5 {
+background-color: green;
+    color: yellow;           
+    font-weight: bold;       
+    padding: 10px 20px;      
+    text-align: center;      
+    display: inline-block;   
+    border: 2px solid darkgreen; 
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+
+h1,h3 {background-color: #b0b0b0;
+    padding: 10px;
+    color: black;
+    }
+
+table {
+    width:auto;
+    border-collapse:separate;
+    border-radius: 10px;
+}
+
+tr:hover {
+    background-color: #d0cece;
+}
+
+th, td {
+    border: 2px solid green;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+th {
+    background-color: #b0b0b0;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    border-radius: 10px;
+}
+
+dt {font-weight: bold;}
+
+div.gallery_pics {
+  display: flex;
+  justify-content:left;
+  align-items:flex-start;
+}
+
+div.gallery_pics a {
+  text-decoration: none;
+  margin: 10px;
+}
+
+div.gallery_pics img {
+  width: 150px;
+  height: 150px;
+  opacity: 0.5;
+}
+
+div.gallery_pics img:hover {
+  opacity: 1;
+  filter: brightness(1.2); /* Increase brightness */
+}
+
+.details_form {font-weight: bold;}
+.contact_text {text-align: left; float: left}
+
+form label {
+    float: left;
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 6px;
+    text-align: right;
+}
+
+#nam, #enam, #ph, #genderr, #msgt{
+    font-weight: bold;
+    width: 130px;
+ 
+}
+#name, #email{
+   width:250px;
+   margin-top: 4px;
+}
+#phone{
+    width:250px;
+    margin-top: 4px;
+}
+
+form textarea {
+    padding: 5px;
+    margin-top: 8px;
+    width: 100%;
+    max-width: 700px;
+    height:150px;
+}
+form input{
+    padding: 5px;
+    margin-left: 6px;
+}
+
+#gen{
+    display:flex;
+}
+#cbox{
+    display:flex;
+}
+
+.form-buttons {
+    margin-top: 20px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#jump-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #007BFF; 
+    color: white; 
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#jump-to-top:hover {
+    background-color: #1a1575;
+    color:white;
+}
